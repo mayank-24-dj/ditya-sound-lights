@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070d17">
+  <meta name="description" content="Ditya Sound & Lights — professional sound systems, lighting and event equipment rental in Vyara, Gujarat. Request your event booking quote.">
+  <title>Ditya Sound & Lights | Event Booking</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#070d17;--panel:#0c1726;--text:#f7f9fc;--muted:#bac6d7;--gold:#ffc928;--line:#20354d}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#070d17f2;border-bottom:1px solid var(--line);backdrop-filter:blur(12px)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 0}.brand{font-weight:900;line-height:1.05;letter-spacing:1px;font-size:1.2rem}.brand span{display:block;font-size:.67rem;letter-spacing:3px;color:var(--gold);margin-top:5px}
+    .links{display:flex;align-items:center;gap:22px;font-size:.88rem}.links a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;background:var(--gold);color:#10131a;padding:12px 18px;border:0;border-radius:999px;font-weight:800;cursor:pointer;font-size:.92rem}.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+    .hero{min-height:520px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(4,9,18,.96) 0%,rgba(4,9,18,.78) 45%,rgba(4,9,18,.2) 100%),url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1800&q=85') center/cover}
+    .hero-copy{max-width:680px;padding:80px 0}.eyebrow{font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-size:.8rem}.hero h1{font-size:clamp(2.6rem,7vw,5rem);line-height:1.02;letter-spacing:-2px;margin:15px 0}.hero h1 span{color:var(--gold)}.hero p{color:#e0e7f1;max-width:550px;font-size:1.06rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn-outline{display:inline-flex;align-items:center;justify-content:center;border:1px solid #c8d2e2;color:white;padding:11px 18px;border-radius:999px;font-weight:700}
+    section{padding:72px 0}.section-head{margin-bottom:28px}.section-head h2{font-size:clamp(1.8rem,4vw,2.6rem);margin:5px 0 8px;line-height:1.15}.section-head p{color:var(--muted);margin:0;max-width:650px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{border:1px solid var(--line);background:linear-gradient(145deg,#0b1727,#07101c);padding:24px;border-radius:15px;min-height:180px}.service .emoji{font-size:1.9rem}.service h3{margin:10px 0 4px;font-size:1.05rem}.service p{margin:0;color:var(--muted);font-size:.9rem}
+    .events{background:#f5f7fb;color:#0a1422}.events .section-head p{color:#536174}.event-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.event{position:relative;min-height:190px;border-radius:14px;overflow:hidden;background:#18283a;display:flex;align-items:end;padding:18px;font-weight:800}.event:before{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.8),rgba(0,0,0,.05))}.event span{position:relative}.event:nth-child(1){background:linear-gradient(135deg,#6d341f,#e6a54b)}.event:nth-child(2){background:linear-gradient(135deg,#32116f,#ed3fae)}.event:nth-child(3){background:linear-gradient(135deg,#9a5a18,#f4c85e)}.event:nth-child(4){background:linear-gradient(135deg,#173e67,#258ad7)}.event:nth-child(5){background:linear-gradient(135deg,#591d57,#ff4e91)}.event:nth-child(6){background:linear-gradient(135deg,#172c4f,#7152e8)}
+    .booking{background:radial-gradient(ellipse at 10% 50%,#102744 0%,#070d17 65%)}.booking-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:40px;align-items:start}.benefits{display:flex;flex-wrap:wrap;gap:18px;margin-top:25px;color:#e6edf8;font-size:.9rem}.benefits span{border:1px solid var(--line);padding:10px 12px;border-radius:10px}.formbox{background:#091321;border:1px solid var(--line);border-radius:18px;padding:24px}.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px}.field.full{grid-column:1/-1}label{font-size:.82rem;color:#d9e2ef;font-weight:600}input,select,textarea{width:100%;background:#0d1a2b;border:1px solid #2a4058;color:white;padding:12px;border-radius:9px;font:inherit;font-size:.92rem}input:focus,select:focus,textarea:focus{outline:2px solid #ffc92866;border-color:var(--gold)}textarea{resize:vertical;min-height:105px}.formbox .btn{width:100%;margin-top:16px;border-radius:9px}.small{font-size:.78rem;color:var(--muted);margin:10px 0 0}
+    footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted)}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot strong{color:white}.foot a{color:var(--gold)}.copyright{font-size:.8rem;border-top:1px solid var(--line);margin-top:20px;padding-top:16px}
+    .mobile-menu{display:none}
+    @media(max-width:760px){.links{display:none}.mobile-menu{display:block;background:none;border:1px solid var(--line);color:white;border-radius:8px;padding:8px 11px}.links.open{display:flex;position:absolute;top:66px;left:0;right:0;background:#070d17;flex-direction:column;align-items:stretch;padding:20px 5%;border-bottom:1px solid var(--line)}.nav{position:relative}.hero{min-height:500px;background-position:58% center}.hero-copy{padding:65px 0}.grid{grid-template-columns:repeat(2,1fr)}.event-grid{grid-template-columns:repeat(2,1fr)}.booking-layout{grid-template-columns:1fr;gap:24px}section{padding:55px 0}}
+    @media(max-width:430px){.grid{grid-template-columns:1fr}.event-grid{grid-template-columns:1fr 1fr}.event{min-height:145px;padding:12px;font-size:.88rem}.formbox{padding:17px}.formgrid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero h1{letter-spacing:-1px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home">DITYA <span>SOUND & LIGHTS</span></a>
+    <button class="mobile-menu" aria-label="Open menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button>
+    <nav class="links" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#events">Events</a><a href="#booking">Booking</a><a href="#contact">Contact</a>
+      <a class="btn" href="#booking">Book Now ↗</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-copy">
+      <div class="eyebrow">Sound • Lights • Events</div>
+      <h1>MAKE YOUR EVENT<br>UNFORGETTABLE WITH<br><span>SOUND & LIGHTS</span></h1>
+      <p>Professional sound systems, stunning stage lighting and event equipment rental for weddings, Garba nights, Ganpati events and celebrations. <span lang="hi">आपके हर खास मौके के लिए साउंड और लाइट्स की शानदार व्यवस्था।</span></p>
+      <div class="actions"><a class="btn" href="#booking">▣ Book Your Event →</a><a class="btn-outline" href="#services">Explore Services</a></div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Our Services</div><h2>Professional Sound & Lights Rental</h2><p>Reliable equipment and event-ready setups to make every celebration feel bigger.</p></div>
+      <div class="grid">
+        <article class="service"><div class="emoji">🔊</div><h3>Sound System</h3><p>Powerful, clear audio setups for small and large events.</p></article>
+        <article class="service"><div class="emoji">💡</div><h3>Stage & Moving Lights</h3><p>Sharpy lights, LED bars, strobes and colourful stage effects.</p></article>
+        <article class="service"><div class="emoji">🎛️</div><h3>DJ Setup</h3><p>DJ controller, mixers and accessories for energetic sets.</p></article>
+        <article class="service"><div class="emoji">🏗️</div><h3>Truss & Stage Setup</h3><p>Professional lighting rig and stage arrangement.</p></article>
+        <article class="service"><div class="emoji">⚡</div><h3>Generator Rental</h3><p>Power backup options for outdoor events and functions.</p></article>
+        <article class="service"><div class="emoji">🎉</div><h3>Event Support</h3><p>Equipment planning and setup support for your occasion.</p></article>
+      </div>
+    </div>
+  </section>
+  <section class="events" id="events">
+    <div class="wrap">
+      <div class="section-head"><div class="eyebrow">Events We Cover</div><h2>For Every Celebration</h2><p>Tell us about your event and we’ll help you plan the right sound and lighting package.</p></div>
+      <div class="event-grid">
+        <div class="event"><span>💍 Weddings</span></div><div class="event"><span>🪩 Garba & Dandiya</span></div><div class="event"><span>🙏 Ganpati Aagman / Visharjan</span></div><div class="event"><span>🏢 Corporate Events</span></div><div class="event"><span>🎂 Birthday Parties</span></div><div class="event"><span>🎓 College & School Events</span></div>
+      </div>
+    </div>
+  </section>
+  <section class="booking" id="booking">
+    <div class="wrap booking-layout">
+      <div>
+        <div class="eyebrow">Book Your Event</div><h2 style="font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:8px 0 12px">Get a <span style="color:var(--gold)">Free Quote</span></h2>
+        <p style="color:var(--muted)">Share your event details. Your enquiry will be prepared as a WhatsApp message so you can send it directly to our booking team. <span lang="hi">अपनी इवेंट की जानकारी भरें और WhatsApp पर बुकिंग रिक्वेस्ट भेजें।</span></p>
+        <div class="benefits"><span>✓ Personalised Quote</span><span>✓ Professional Setup</span><span>✓ Event Support</span></div>
+      </div>
+      <form class="formbox" id="bookingForm">
+        <div class="formgrid">
+          <div class="field"><label for="name">Your Name *</label><input id="name" name="name" autocomplete="name" required placeholder="Enter your name"></div>
+          <div class="field"><label for="phone">Phone Number *</label><input id="phone" name="phone" inputmode="tel" autocomplete="tel" required pattern="[0-9+\s()-]{10,18}" placeholder="Your contact number"></div>
+          <div class="field"><label for="type">Event Type *</label><select id="type" name="type" required><option value="">Choose event</option><option>Wedding</option><option>Garba / Dandiya</option><option>Ganpati Aagman / Visharjan</option><option>Birthday</option><option>College / School Event</option><option>Corporate Event</option><option>Equipment Rental</option><option>Other</option></select></div>
+          <div class="field"><label for="date">Event Date *</label><input id="date" name="date" type="date" required></div>
+          <div class="field full"><label for="location">Event Location *</label><input id="location" name="location" required placeholder="Village / city / venue"></div>
+          <div class="field full"><label for="requirements">Message / Requirements</label><textarea id="requirements" name="requirements" placeholder="Sound, Sharpy lights, LED, generator, event timing, budget..."></textarea></div>
+        </div>
+        <button class="btn" type="submit">➤ Send Booking Request on WhatsApp</button>
+        <p class="small">This demo opens WhatsApp with your details. It does not store bookings on a server.</p>
+        <p id="formMessage" class="small" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+<footer id="contact">
+  <div class="wrap">
+    <div class="foot">
+      <div><strong style="font-size:1.2rem">DITYA SOUND & LIGHTS</strong><div>Your Event, Our Passion.</div><div>Vyara, Gujarat, India</div></div>
+      <div><strong>Contact & Booking</strong><div>Phone/WhatsApp: <a href="https://wa.me/919909323682" target="_blank" rel="noopener noreferrer">+91 99093 23682</a></div><div>Email: Contact us on WhatsApp</div></div>
+      <div><strong>Quick Links</strong><div><a href="#services">Services</a> · <a href="#events">Events</a> · <a href="#booking">Book Now</a></div><div>Instagram: <a href="https://www.instagram.com/ditya_sound_system__lighting/" target="_blank" rel="noopener noreferrer">@ditya_sound_system__lighting</a></div></div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Ditya Sound & Lights. All rights reserved.</div>
+  </div>
+</footer>
+<script>
+  // IMPORTANT: Replace this placeholder with the booking WhatsApp number including country code,
+  // digits only. Example India: 919876543210 (do not include + or spaces).
+  const WHATSAPP_NUMBER = "919909323682";
+  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("bookingForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const f = new FormData(this);
+    const message = [
+      "Hello Ditya Sound & Lights! I want to book an event.",
+      "",
+      "Name: " + f.get("name"),
+      "Phone: " + f.get("phone"),
+      "Event: " + f.get("type"),
+      "Date: " + f.get("date"),
+      "Location: " + f.get("location"),
+      "Requirements: " + (f.get("requirements") || "Not specified")
+    ].join("\n");
+    if (WHATSAPP_NUMBER.includes("X")) {
+      document.getElementById("formMessage").textContent = "Setup needed: website owner must add the correct WhatsApp number in index.html before booking messages can be sent.";
+      return;
+    }
+    window.open("https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message), "_blank", "noopener,noreferrer");
+  });
+</script>
+</body>
+</html>
